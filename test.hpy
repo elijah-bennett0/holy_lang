@@ -1,0 +1,8 @@
+proclaim greet(name):
+    if_thou name == "Moses":
+        say("Let my people code.")
+    otherwise:
+        say("Peace be with you.")
+    return amen
+
+greet("Moses")
